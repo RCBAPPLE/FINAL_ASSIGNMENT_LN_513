@@ -11,7 +11,7 @@ This second part of the project demonstrates a real-time scheduling system imple
 | **Temp Conversion**  | Converts Fahrenheit to Celsius and logs the result.             | `tskIDLE_PRIORITY + 3` | Every 330 ms       |
 | **Binary Search**    | Performs a binary search on an array of 50 integers.            | `tskIDLE_PRIORITY + 1` | Every 350 ms       |
 | **Big Number Math**  | Multiplies large numbers and prints the result.                 | `tskIDLE_PRIORITY + 2` | Every 330 ms       |
-| **RESET Task**       | Monitors keyboard input and prints "RESET" upon detection, ensuring the state resets to zero for the next execution. | `tskIDLE_PRIORITY + 4` | Every 200 ms       |
+| **RESET Task**       | Monitors keyboard input and prints "0" upon detection, ensuring the state resets to zero for the next execution. | `tskIDLE_PRIORITY + 4` | Every 200 ms       |
 
 ### RESET Task Behavior
 - Detects the key `'1'` from user input.
