@@ -70,7 +70,7 @@ Each task’s WCET has been analyzed to ensure it fits within its allocated peri
    - Press the key `'1'` during execution to trigger the RESET task.
    - The console will display `"RESET"`.
   
-## Possible Problems
+## Possible Problem of running
 Maybe you will face some problems to run the code, as it was for myself. I couldn't find any solution. 
 I suppose the different problems I have with my computer could have drived to some errors with FreeRTOS. For myself, the code should work and run but I am blocked in an infinite loop with no exit possible.
 But the terminal log out that the "Trace output saved to Trace.dump", so I guess it worked. Any solution I explored were not working, by changing the stacksize of the differents tasks in the ipsa_sched.c
